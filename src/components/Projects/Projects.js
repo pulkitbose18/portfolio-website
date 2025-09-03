@@ -6,7 +6,7 @@ import lavaImage from "../../Assets/Projects/LAVA.png";
 import farmisianImage from "../../Assets/Projects/Farmisian.png";
 import fraudDetectionImage from "../../Assets/Projects/Fraud Detection.png";
 import pneumoniaDetectionImage from "../../Assets/Projects/Pneumonia Detection.png";
-import skillSwapImage from "../../Assets/Projects/Skill Swap.png";
+
 
 function Projects() {
   return (
