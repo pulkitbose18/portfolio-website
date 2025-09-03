@@ -18,55 +18,51 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
 
         {/* Resume Content */}
         <Row className="resume">
           <Col md={12}>
-            <h2>Career Objective</h2>
+            <h2>Summary</h2>
             <p>
-            Motivated and detail-oriented final-year B.Tech student in Information Technology at PSIT Kanpur, with a strong foundation in programming, machine learning, and full-stack development. Eager to join a dynamic team where I can apply my skills in Java, Python, and problem-solving to real-world challenges. Looking for an entry-level role in software development or Machine Learning that offers continuous learning and growth opportunities.
+            Python developer with a strong foundation in software development, algorithms, and data structures. Passionate about financial technology and eager to apply Python programming skills in front-office trading. a quick learner with strong analytical skills and excellent communication skills.
             </p>
 
             <h2>Education</h2>
             <ul>
-              <li><strong>Bachelor of Technology (B.Tech) in Information Technology</strong> - Pranveer Singh Institute Of Technology (PSIT), Kanpur, India (2022 - 2026)</li>
-              <li><strong>12th Class (ICSE)</strong> - Mother Teresa Mission Higher Secondary School, Kanpur, India (2021 - 2022)</li>
-              <li><strong>10th Class (ICSE)</strong> - Mother Teresa Mission Higher Secondary School, Kanpur, India (2019 - 2020)</li>
+              <li><strong>B.Tech in Information Technology</strong> - Pranveer Singh Institute of Technology, Kanpur (2022-2026)</li>
+              <li><strong>12th in Indian School Certificate</strong> - Sheiling House School 2021</li>
+              <li><strong>10th in Indian Certificate of Secondary Education</strong> - Sheiling House School 2019</li>
             </ul>
 
-            <h2>Technical Skills</h2>
+            <h2>Skills & Technologies</h2>
             <ul>
-              <li><strong>Languages:</strong> Java, Python (ML), PHP, JavaScript</li>
-              <li><strong>Web:</strong> React.js, Node.js, HTML, CSS, Apache</li>
-              <li><strong>ML/AI:</strong> Federated Learning, LLMs (basic), TensorFlow</li>
-              <li><strong>Tools:</strong> Git, GitHub, REST APIs, Netlify, MySQL</li>
-              <li><strong>Platforms:</strong> LeetCode, HackerRank, GFG</li>
+              <li><strong>Programming:</strong> C, Python, HTML, CSS, JavaScript</li>
+              <li><strong>Databases:</strong> MySQL, MongoDB</li>
+              <li><strong>Softwares:</strong> Git, Docker, VS Code, Jupyter Notebook, Anaconda, TrueNAS, Transformer, Google Colab, Ollama, Hugging Face, LM Studio</li>
+              <li><strong>technologies:</strong> Nas, linux, LLM</li>
             </ul>
 
-            <h2>Projects</h2>
+            <h2>Projects & Experience</h2>
             <ul>
-              <li><strong>Pneumonia Detection with Federated Learning:</strong> Developed a CNN-based ML model to detect pneumonia from chest X-rays using Federated Averaging across 5 clients. Achieved 91% accuracy while preserving data privacy. (Tech Stack: Python, TensorFlow, PyTorch)</li>
-              <li><strong>LAVA Voice Assistant:</strong> Built a desktop assistant to send emails, read news, and search Wikipedia via voice using speech recognition and text-to-speech libraries. (Tech Stack: Python, pyttsx3, smtplib, speech_recognition)</li>
-              <li><strong>Generative AI-based Hindi Language Converter:</strong> Developed a web application leveraging a fine-tuned LLM to convert Hinglish text into formal Devanagari script, achieving high contextual accuracy. (Tech Stack: Python, Hugging Face Transformers, Flask, React.js)</li>
-              <li><strong>Stenography Error Hunter:</strong> Created a grammar-checking tool using NLP to correct shorthand transcripts for training stenographers. (Tech Stack: Python, NLTK, language_tool_python)</li>
-              <li><strong>Portfolio Website:</strong> Deployed a personal portfolio with animations and project highlights. (Live Link: namanchugh-portfolio.netlify.app) (Tech Stack: React.js, Netlify)</li>
+              <li><strong>Hindi to hindi conversation AΙ:</strong> Finetuned a phi-3.5 mini model. Used a 4 billion parameter model.</li>
+              <li><strong>ViTFedCXR: A Stacked CNN-ViT-XGBoost Model for Federated Learning in Chest X-Ray Disease Detection:</strong> Built a federated learning model with Vision Transformers for pneumonia detection on chest X-rays.</li>
+              <li><strong>Online Medecine Shop:</strong> A foundational e-commerce platform built with the Django framework.</li>
+              <li><strong>doctor Patient Portal:</strong> Full-featured Doctor-Patient portal with separate interfaces for administrators, doctors, and patients.</li>
+              <li><strong>LAVA Linguistic Autonomy Virtual Assistant:</strong> Built a desktop assistant to send emails, read news, and search Wikipedia via voice.</li>
+              <li><strong>Codex console based Library Management System built in C:</strong> End-to-End C Application Development.</li>
+              <li><strong>FDS Fraud Detection System:</strong> Advanced Feature Engineering including the breakthrough is exact drain feature.</li>
+              <li><strong>Farmisian – Agriculture Platform:</strong> Developed an web platform for crop management and market trends.</li>
             </ul>
 
-            <h2>Certifications & Achievements</h2>
+            <h2>Certifications</h2>
             <ul>
-              <li>AWS Cloud Practitioner</li>
-              <li>Salesforce Trailhead: 53 Badges</li>
-              <li>Infosys - Bootstrap & Gen AI</li>
-              <li>HackerRank Python Basic</li>
-              <li>Agentblazer Innovator 2025</li>
-              <li>ACM ICPC Participant</li>
-              <li>TechExpo Winner 2024</li>
-              <li>Head - Ignitia Tech Fest (2 Years)</li>
-              <li>500+ DSA Problems Solved</li>
-              <li>Zonal-Level Badminton Player</li>
+              <li>Introduction to Generative AI - Google</li>
+              <li>Introduction to Responsible AI - Google</li>
+              <li>Introduction to Large Language Models - Google</li>
+              <li>Introduction to Image Generation - Google</li>
             </ul>
           </Col>
         </Row>
@@ -79,7 +75,7 @@ function ResumeNew() {
             style={{ maxWidth: "250px" }}
           >
             <AiOutlineDownload />
-            &nbsp;Download CV
+            &nbsp;Download Resume
           </Button>
         </Row>
       </Container>

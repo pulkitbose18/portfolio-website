@@ -8,12 +8,12 @@ function AboutCard() {
       <Card.Body>
         <blockquote className="blockquote mb-0">
           <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Naman Chugh </span>
+            Hi Everyone, I am <span className="purple">Pulkit Bose </span>
             from <span className="purple">Kanpur, India.</span>
             <br />
-            I am a motivated and detail-oriented final-year B.Tech student with a strong foundation in programming, machine learning, and full-stack development.
+            I am a Python developer with a strong foundation in software development, algorithms, and data structures.
             <br />
-            I am eager to apply my skills in Java, Python, and problem-solving to real-world challenges.
+            Passionate about financial technology and eager to apply Python programming skills in front-office trading.
             <br />
             <br />
             Apart from coding, here are some other activities I love to do!
@@ -33,7 +33,7 @@ function AboutCard() {
           <p style={{ color: "rgb(155 126 172)" }}>
             "Strive for progress, not perfection!"{" "}
           </p>
-          <footer className="blockquote-footer">Naman</footer>
+          <footer className="blockquote-footer">Pulkit</footer>
         </blockquote>
       </Card.Body>
     </Card>

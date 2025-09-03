@@ -22,41 +22,41 @@ function Projects() {
         <Row style={{ justifyContent: "center", paddingBottom: "10px" }}>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={pneumoniaDetectionImage}
+              imgPath={pneumoniaDetectionImage} // Placeholder
               isBlog={false}
-              title="Pneumonia Detection Using Federated Learning"
-              description="A privacy-first, multi-institution AI system that uses Vision Transformer (ViT) models and federated learning to detect pneumonia from chest X-rays. It includes explainable attention heatmaps, a real-time dashboard, and production-ready APIs with React-frontend and Flask backend."
-              ghLink="https://github.com/Naman477/Pneumonia-Detection-Using-Federated-Learning"
+              title="Hindi to hindi conversation AΙ"
+              description="Finetuned a phi-3.5 mini model. Used a 4 billion parameter model. Library used unsloth. Technique used QLORA 4bit. Made for using offline purpose and can converse in hindi with understand hindi sentences."
+              ghLink="https://github.com/pulkitbose18"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={skillSwapImage}
+              imgPath={pneumoniaDetectionImage} // Placeholder
               isBlog={false}
-              title="Skill Barter System"
-              description="A platform for swapping skills: users list what they can teach and what they want to learn, then match based on mutual needs, enabling peer-to-peer barter without money."
-              ghLink="https://github.com/Naman477/Skill-Barter-System"
+              title="ViTFedCXR: A Stacked CNN-ViT-XGBoost Model for Federated Learning in Chest X-Ray Disease Detection"
+              description="Built a federated learning model with Vision Transformers for pneumonia detection on chest X-rays. Applied secure model aggregation and evaluated with accuracy, F1-score, precision, and recall. Implemented a federated learning system using Flower (flwr) to train the stacking model on decentralized data."
+              ghLink="https://github.com/pulkitbose18"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={fraudDetectionImage}
+              imgPath={fraudDetectionImage} // Placeholder
               isBlog={false}
-              title="Fraud Detection System"
-              description="A machine learning pipeline using XGBoost and advanced feature engineering to detect fraudulent financial transactions. It includes GPU-accelerated training, serialized models ready for deployment, and detailed analysis of false positives/negatives."
-              ghLink="https://github.com/pulkitbose18/fraud-detection-system"
+              title="Online Medecine Shop"
+              description="A foundational e-commerce platform built with the Django framework. Configured to handle media uploads. The website is built with a clean and modern user interface. Features a responsive design that adapts to various screen sizes."
+              ghLink="https://github.com/pulkitbose18"
             />
           </Col>
 
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={farmisianImage}
+              imgPath={farmisianImage} // Placeholder
               isBlog={false}
-              title="Farmisian"
-              description="A responsive, multilingual static website (HTML/CSS) focusing on farming content—available in English, Hindi, and Marathi—likely intended for reaching diverse rural audiences."
-              ghLink="https://github.com/Prabhat993/farmisian"
+              title="doctor Patient Portal"
+              description="Full-featured Doctor-Patient portal with separate interfaces for administrators, doctors, and patients. Supports core functionalities like user authentication, appointment scheduling, and doctor management. Follows a standard Java web application structure, separating concerns into DAOs, Servlets, and JSP pages."
+              ghLink="https://github.com/pulkitbose18"
             />
           </Col>
 
@@ -64,9 +64,9 @@ function Projects() {
             <ProjectCard
               imgPath={lavaImage}
               isBlog={false}
-              title="L.A.V.A"
-              description="Built a desktop assistant to send emails, read news, and search Wikipedia via voice using speech recognition and text-to-speech libraries."
-              ghLink="https://github.com/Naman477/L.A.V.A"
+              title="LAVA Linguistic Autonomy Virtual Assistant"
+              description="Built a desktop assistant. Used a 4 billion parameter model. to send emails, read news, and search Wikipedia via voice."
+              ghLink="https://github.com/pulkitbose18"
             />
           </Col>
         </Row>

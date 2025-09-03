@@ -2,18 +2,15 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import {
   SiVisualstudiocode,
-  SiPostman,
   SiSlack,
-  SiVercel,
 } from "react-icons/si";
-import { FaAws } from "react-icons/fa";
+import { FaGit, FaDocker } from "react-icons/fa";
 
 const tools = [
   { icon: <SiVisualstudiocode />, name: "VS Code" },
-  { icon: <SiPostman />, name: "Postman" },
+  { icon: <FaGit />, name: "Git" },
+  { icon: <FaDocker />, name: "Docker" },
   { icon: <SiSlack />, name: "Slack" },
-  { icon: <SiVercel />, name: "Vercel" },
-  { icon: <FaAws />, name: "AWS" },
 ];
 
 function Toolstack() {
