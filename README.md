@@ -28,7 +28,7 @@ This project is built upon a robust stack of modern frontend technologies:
 
 Experience the portfolio live:
 
-[**View Live Demo**](YOUR_LIVE_DEMO_URL_HERE)
+[**View Live Demo**](https://pulkitbose-portfolio.netlify.app/)
 
 *Please update the placeholder URL above with your actual deployed link.*
 
